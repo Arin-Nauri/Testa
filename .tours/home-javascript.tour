@@ -1,0 +1,26 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Home-Javascript",
+  "steps": [
+    {
+      "file": "home/static/home/js/Dynamics.js",
+      "description": "baris ini berfungsi sebagai eksekutor ketika ada event scroll:\n\n    jadi ketika website di scroll maka program akan di eksekusi",
+      "line": 2
+    },
+    {
+      "file": "home/static/home/js/Dynamics.js",
+      "description": "ini adalah kumpulan variable yang diperlukan untuk menjalankan program dengan benar",
+      "line": 3
+    },
+    {
+      "file": "home/static/home/js/Dynamics.js",
+      "description": "untuk membuat fix navigation header yang indah:\n\n    ketika posisiScroll memiliki nilai yang lebih dari 78 maka navigation header akan di buat fix dan akan tetap berada di atas layar.",
+      "line": 9
+    },
+    {
+      "file": "home/static/home/js/Dynamics.js",
+      "description": "bagian ini berfungsi sebagai animator:\n\n    jadi kelas .TeksBeranda akan berubah menjadi transparant ketika navigation header bertabrakan dengan .TeksBeranda",
+      "line": 22
+    }
+  ]
+}

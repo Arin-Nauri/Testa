@@ -1,0 +1,104 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="{% static 'home/css/style.css' %}">
+    <script src="{% static 'home/js/Dynamics.js' %}"></script>
+    <title>Octabyte SMAN8 Bandung...</title>
+</head>
+<body class="backgraund">
+
+    <section id="Beranda">
+
+        <div class="logoGroup">
+            <H2 class="logo">Logo</H1>
+            <H1 class="logo">OCTABYTE</H1>
+        </div>
+
+        <header class="structure">
+            <h3><a href="#Beranda">Beranda</a></h3>
+            <h3><a href="">Materi Pembelajaran</a></h3>
+            <h3><a href="">Proyek</a></h3>
+            <h3><a href="">Kegiatan</a></h3>
+            <h3><a href="">Kontak</a></h3>
+        </header>
+
+        <section class="Beranda">
+            <div class="Beranda2">
+                <h1 class="TeksBeranda">Ekstra kulikuler IT</h1>
+                <h1 class="TeksBeranda">di SMAN 8 Bandung.</h1>
+            </div>
+        </section>
+
+    </section>
+    
+</body>
+</html>
+
+
+css backup
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,h1 {
+    margin: 0;
+}
+
+section h3 a {
+    color: white;
+    margin: 0;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.backgraund {
+    height: 250vh;
+    background: radial-gradient(circle, rgba(46,34,185,1) 0%,
+    rgba(76,32,171,1) 46%, rgba(0,0,0,1) 100%);
+    background-repeat: repeat-y;
+    background-size: 100vw 250vh;
+}
+
+.logoGroup {
+    padding: 20px;
+    flex-direction: row;
+}
+
+.logo {
+    color: white;
+    margin: 0;
+    font-family: sans-serif;
+    display: inline-block;
+    font-size: 2em;
+}
+
+.structure {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-top: 1px solid rgba(128, 128, 128, 0.15);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.15);
+}
+
+.Beranda {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 198px);
+    border-bottom: 1px solid red
+}
+
+.TeksBeranda {
+    color: rgba(255,255,255,1);
+    margin: 0;
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-size: 50px;
+}
+
+.Beranda2 {
+    margin-top: 8%;
+}
